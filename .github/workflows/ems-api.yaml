@@ -42,4 +42,4 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/ems-apiCI:v1.1     
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/ems-api-actions:v1.1     
